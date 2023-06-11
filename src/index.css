@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+  --theme: #20062e;
+  --blue: #18b2de;
+  --white: #ffffff;
+  --grey: #d7d7d7;
+  --purple-grey: #8f8297;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--theme);
+  color: var(--white);
+}
+
+input {
+  font-family: 'Inter', sans-serif;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.input-wrapper{
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+.input-wrapper h1{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.input-wrapper p{
+  cursor: pointer;
+}
+
+.podcasts-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.podcast-title-heading{
+  text-align: left !important;
+  width: 100%;
+}
